@@ -88,6 +88,11 @@ function AboutSection() {
                 Sertifikat {" "}
                 </TabButton>
 
+                <TabButton selecTab={() => hanldeTabChange('Penghargaan')} active={tab === "Penghargaan"}>
+                {" "}
+                Penghargaan {" "}
+                </TabButton>
+
           </div>
           <div className='mt-8'>{TAB_DATA.find((t) => t.id === tab).content}</div>
           </div>

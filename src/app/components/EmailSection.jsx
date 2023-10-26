@@ -51,15 +51,13 @@ const EmailSection = () => {
         </h5>
         <p className="text-[#ADB7BE] mb-4 max-w-md">
           {" "}
-          I&apos;m currently looking for new opportunities, my inbox is always
-          open. Whether you have a question or just want to say hi, I&apos;ll
-          try my best to get back to you!
+          Saat ini, saya sedang mencari peluang baru, kotak masuk saya selalu terbuka. Baik Anda memiliki pertanyaan atau hanya ingin mengatakan hai, saya akan berusaha sebaik mungkin untuk memberikan respons kepada Anda!
         </p>
-        <div className="socials flex flex-row gap-2">
+        <div className="socials flex flex-row gap-2" target="_blank">
           <Link href="https://github.com/GilangMF11/">
             <Image src={GithubIcon} alt="Github Icon" />
           </Link>
-          <Link href="linkedin.com">
+          <Link href="https://www.linkedin.com/in/gilang-miftakhul-fahmi-09a87b201/" target="_blank">
             <Image src={LinkedinIcon} alt="Linkedin Icon" />
           </Link>
         </div>
@@ -84,7 +82,7 @@ const EmailSection = () => {
                 id="email"
                 required
                 className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                placeholder="jacob@google.com"
+                placeholder="email@youremail.com"
               />
             </div>
             <div className="mb-6">
