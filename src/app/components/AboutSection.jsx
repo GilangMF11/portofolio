@@ -39,6 +39,17 @@ const TAB_DATA = [
         <li>Bahasa Inggris - Amikom Purwokerto</li>
         <li>Digital Forensec - Academy Forensec Curam Victory</li>
         <li>Javascript - Dicoding Indonesia</li>
+        <li>Dll</li>
+      </ul>
+    )
+  },
+  {
+    id: "Penghargaan",
+    title: "Penghargaan",
+    content: (
+      <ul className='list-disc pl-2'>
+        <li>Asisten Praktikum Terfavorit 2021 - Universitas Amikom Purwokerto</li>
+        <li>Top 8 Mahasiswa Terbaik Wisuda ke-27 - Universitas Amikom Purwokerto</li>
       </ul>
     )
   }
